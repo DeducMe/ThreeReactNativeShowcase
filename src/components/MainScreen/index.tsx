@@ -22,7 +22,6 @@ import {
 } from "react-native";
 import { useAnimatedStyle } from "react-native-reanimated";
 import { withTiming } from "react-native-reanimated";
-import { Easing } from "react-native-reanimated";
 
 function Box({
   args,
