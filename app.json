@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "experiments": {
+      "tsconfigPaths": true
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -21,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.deducme.ThreeReactNativeShowcase"
     },
     "web": {
       "favicon": "./assets/favicon.png"
