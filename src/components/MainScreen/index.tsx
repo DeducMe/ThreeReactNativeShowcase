@@ -98,11 +98,11 @@ function Shoe(props) {
   ]);
   const material = useLoader(
     MTLLoader,
-    require("../../../assets/Airmax/shoe.mtl")
+    require("../../../assets/Airmax/shoeMaterial.mtl")
   );
   const obj = useLoader(
     OBJLoader,
-    require("../../../assets/Airmax/shoe.obj"),
+    require("../../../assets/Airmax/nike.obj"),
     (loader) => {
       material.preload();
       loader.setMaterials(material);
